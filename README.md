@@ -1,6 +1,6 @@
 # autogousto
 
-> A CLI tool to make suggestions for this week's Gousto menu based on your order history and preferences.
+> A CLI tool to make AI-generated suggestions for this week's Gousto menu based on your order history and preferences.
 
 ## Usage
 
