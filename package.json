@@ -1,7 +1,7 @@
 {
   "name": "autogousto",
   "version": "1.0.0",
-  "description": "Fetches this week's Gousto recipe menu + order history and uses an LLM to suggest picks, emailed weekly.",
+  "description": "A CLI tool to make AI-generated suggestions for this week's Gousto menu based on your order history and preferences.",
   "bin": {
     "gousto": "./bin/gousto.ts"
   },
