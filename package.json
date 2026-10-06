@@ -1,0 +1,31 @@
+{
+  "name": "autogousto",
+  "version": "1.0.0",
+  "description": "Fetches this week's Gousto recipe menu + order history and uses an LLM to suggest picks, emailed weekly.",
+  "bin": {
+    "gousto": "./bin/gousto.ts"
+  },
+  "scripts": {
+    "login": "tsx bin/gousto.ts login",
+    "fetch": "tsx bin/gousto.ts fetch",
+    "recommend": "tsx bin/gousto.ts recommend",
+    "run": "tsx bin/gousto.ts run",
+    "web": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "selenium-webdriver": "^4.49.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "@types/selenium-webdriver": "^4.35.7",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
